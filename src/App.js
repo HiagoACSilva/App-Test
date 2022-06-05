@@ -3,6 +3,8 @@ import TesteProps from './components/TesteProps';
 import Jogo from './components/Jogo';
 import Css from './components/Css';
 import Lista from './components/Lista';
+import Evento from './components/Evento';
+import Envio from './components/Envio';
 function App() { 
 
   const num = 2 
@@ -22,6 +24,8 @@ function App() {
       <Css/>
       <p>Teste de Props Personalizadas em Produto</p>
       <Lista/>
+      <Evento/>
+      <Envio/>
     </div>
   );
 }
