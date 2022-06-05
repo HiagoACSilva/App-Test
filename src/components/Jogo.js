@@ -3,7 +3,7 @@ function Jogo({nome, ano, imagem}){
     return(
     <div>
         <img src = {imagem} alt = {nome}/>
-        <h2>Nome: {nome}</h2>
+        <h1>Nome: {nome}</h1>
         <p>Ano de lançamento: {ano}</p>
     </div>
     )
