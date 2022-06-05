@@ -1,4 +1,5 @@
 function TesteProps(props){
+    //TESTE UTILIZANDO props NOS PARAMETROS
     return(
         <div>
             <p>
