@@ -2,7 +2,7 @@ import './App.css';
 import TesteProps from './components/TesteProps';
 import Jogo from './components/Jogo';
 import Css from './components/Css';
-
+import Lista from './components/Lista';
 function App() { 
 
   const num = 2 
@@ -20,6 +20,8 @@ function App() {
         ano = {"BETA"}
       />
       <Css/>
+      <p>Teste de Props Personalizadas em Produto</p>
+      <Lista/>
     </div>
   );
 }
