@@ -1,16 +1,14 @@
 import './App.css';
-import HelloWorld from './components/HelloWorld';
+import TesteProps from './components/TesteProps';
 function App() {  
-  const Var = 'String'
   
   return (
     <div className="App">
-
-      <h1>APP TEST</h1>
-      <p>My First HTML</p>
-      <HelloWorld/>
-      <h2>Alteração</h2>
-      <p>{Var}</p> 
+      <TesteProps 
+        name = {"Teste"}
+        num1 = {2} 
+        num2 = {5}
+      /> 
     </div>
   );
 }
