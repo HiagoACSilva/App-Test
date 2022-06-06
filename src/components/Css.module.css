@@ -1,0 +1,10 @@
+/*ESTILO DO CONTAINER*/
+.Style1Container{
+    background-color:black;
+    border: 4px solid purple;
+}
+/*ESTILO DO CONTEUDO*/
+.Style1Content{
+    color: white;
+    margin:0%;
+}
