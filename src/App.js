@@ -5,6 +5,7 @@ import Css from './components/Css';
 import Lista from './components/Lista';
 import Evento from './components/Evento';
 import Envio from './components/Envio';
+import Conditional from './components/Conditional';
 function App() { 
 
   const num = 2 
@@ -26,6 +27,8 @@ function App() {
       <Lista/>
       <Evento/>
       <Envio/>
+      <p>Teste de Renderização Condicional</p>
+      <Conditional/>
     </div>
   );
 }
